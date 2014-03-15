@@ -1,0 +1,23 @@
+{
+	"selectidp": {
+		"en": "Επιλέξτε το SP που θέλετε να συνδεθείτε"
+	},
+	"selectidp_full": {
+		"en": "Εάν δεν έχετε λογαριασμό, μπορείτε να δημιουργήσετε <a href='/register.php'>εδω</a>, και συνδεθείτε με το Idp LOCALUSERS"
+	},
+	"select": {
+		"en": "Επιλογή IDP"
+	},
+	"remember": {
+		"en": "Να θυμάσαι την επιλογή μου"
+	},
+	"icon_prefered_idp": {
+		"en": "[Preferred choice]"
+	},
+	"previous_auth": {
+		"en": "You have previously chosen to authenticate at"
+	},
+	"login_at": {
+		"en": "Login at"
+	}
+}

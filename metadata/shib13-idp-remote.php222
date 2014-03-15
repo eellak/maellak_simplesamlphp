@@ -1,0 +1,18 @@
+<?php
+/**
+ * SAML 1.1 remote IdP metadata for simpleSAMLphp.
+ *
+ * Remember to remove the IdPs you don't use from this file.
+ *
+ * See: https://rnd.feide.no/content/idp-remote-metadata-reference
+ */
+
+$metadata['https://snf-131326.vm.okeanos.grnet.gr'] = array(
+        'name' => array('en'=>' LOCAL ELLAK ',),
+        'description'          => 'T akdkas jkasd aksd jask.',
+	 'SingleSignOnService'  => 'https://snf-131326.vm.okeanos.grnet.gr/simplesaml/saml2/idp/SSOService.php',
+        'SingleLogoutService'  => 'https://snf-131326.vm.okeanos.grnet.gr/simplesaml/saml2/idp/SingleLogoutService.php',
+        'certFingerprint'      => ''
+);
+
+
