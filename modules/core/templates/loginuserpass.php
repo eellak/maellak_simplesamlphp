@@ -27,10 +27,8 @@ if ($this->data['errorcode'] !== NULL) {
 }
 ?>
 
-<div id="main1" class="main1">
-      <div class="container">
         <div class="row-fluid">&nbsp;
-        <div class="span4 offset4"><h3> Σύνδεση </h3></div>
+        <div class="span12"><h3> Σύνδεση </h3></div>
         </div>
         <div class="row-fluid login dropdown yamm-fullwidth open dropdown-toggle">
     		<div class="span12">
@@ -38,7 +36,7 @@ if ($this->data['errorcode'] !== NULL) {
                 
                   <div class="row-fluid">
                     <form class="form-horizontal span12" action=?" method="post" name="f">
-                      <fieldset class="form-vertical span4 offset4">
+                      <fieldset class="form-vertical span12">
                         <div class="control-group">
                           <label class="control-label span12" for="login-email">E-MAIL / ΟΝΟΜΑ ΧΡΗΣΤΗ</label>
                           <div class="controls">
@@ -65,17 +63,16 @@ if ($this->data['errorcode'] !== NULL) {
                       </fieldset>
                     </form>
                     <div class="row-fluid">
-                      <div class="span4 offset4"><a href="/resetemail-1.php" class="btn btn-link">ΞΕΧΑΣΑ ΤΟΝ ΚΩΔΙΚΟ ΜΟΥ</a></div>
+                      <div class="span12"><a href="/resetemail-1.php" class="btn btn-link">ΞΕΧΑΣΑ ΤΟΝ ΚΩΔΙΚΟ ΜΟΥ</a></div>
                     </div>
                     <div class="row-fluid">
-                      <div class="span4 offset4"><a href="/register.php" class="btn btn-link">ΔΕΝ ΕΧΩ ΛΟΓΑΡΙΑΣΜΟ</a></div>
+                      <div class="span12"><a href="/register.php" class="btn btn-link">ΔΕΝ ΕΧΩ ΛΟΓΑΡΙΑΣΜΟ</a></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            </div>
-    </div>
+           
 
     <!-- Le javascript
     ================================================== -->

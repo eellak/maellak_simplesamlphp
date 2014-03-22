@@ -4,8 +4,9 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
 		echo $c;
 	}
 }
-?>
-
+?>	
+</div>
+</div>
 	</div>
 </div>
  <div class="footer">
@@ -14,7 +15,7 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
          <div id="theI"></div>
           <div class="cols clearfix">
             <div class="sponsor col span4 espa">
-                <a href="#"><img src="/<?php echo $this->data['baseurlpath']; ?>resources/icons/logo-espa.png" alt="" width="347" height="51" /></a>
+                <img src="/<?php echo $this->data['baseurlpath']; ?>resources/icons/logo-espa.png" alt="" width="347" height="51" />
             </div>
             <div class="sponsor col span2 grnet bordered">
                 <a href="https://www.grnet.gr/"><img src="/<?php echo $this->data['baseurlpath']; ?>resources/icons/logo-grnet.png" alt="" width="89" height="43" /></a>
@@ -33,8 +34,8 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
           </div>
           <div class="pull-left">
             <ul class="inline">
-              <li class="theYear"><strong>2013</strong></li>
-              <li>ΥΠΛΟΠΟΙΗΘΗΚΕ ΜΕ ΤΗ ΧΡΗΣΗ ΤΟΥ <a href="#" class="underlined">ΕΛ/ΛΑΚ</a> ΛΟΓΙΣΜΙΚΟΥ <a href="#" class="underlined">WORDPRESS</a></li>
+              <li class="theYear"><strong><?php echo date('Y'); ?></strong></li>
+              <li>ΥΠΛΟΠΟΙΗΘΗΚΕ ΜΕ ΤΗ ΧΡΗΣΗ ΤΟΥ <a href="http://www.ellak.gr" class="underlined">ΕΛ/ΛΑΚ</a> ΛΟΓΙΣΜΙΚΟΥ <a href="http://el.wordpress.org/" class="underlined">WORDPRESS</a></li>
 		<img src="/<?php echo $this->data['baseurlpath']; ?>resources/icons/ssplogo-fish-small.png" alt="Small fish logo" style="float: right" />		
             </ul>
           </div>
