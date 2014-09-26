@@ -12,6 +12,5 @@ $metadata['https://ma.ellak.gr/simplesaml/module.php/saml/sp/metadata.php/ariste
 	'AssertionConsumerService' => 'http://sp.shiblab.feide.no/Shibboleth.sso/SAML/POST',
 	'audience'                 => 'urn:mace:feide:shiblab',
 	'base64attributes'         => FALSE,
-
 );
 

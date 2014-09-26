@@ -14,9 +14,9 @@
 
 $metadata['https://ma.ellak.gr/simplesaml/saml2/idp/metadata.php'] = array(
 	'name' => array(
-		'en' => ' test idp ',
+		'en' => 't',
 	),
-	'description'          => 'T akdkas jkasd aksd jask.',
+	'description'          => 't',
 
     'description'          => 'Here you can login with your account on Feide RnD OpenID. If you do not already have an account on this identity provider, you can create a new one by following the create new account link and follow the instructions.',
     'SingleSignOnService'  => 'https://ma.ellak.gr/simplesaml/saml2/idp/SSOService.php',
@@ -53,10 +53,9 @@ $metadata['https://ma.ellak.gr/simplesaml/saml2/idp/metadata.php'] = array(
 
 $metadata['https://ma.ellak.gr'] = array(
         'name' => array(
-                'en' => ' LOCALUSERS ',
+                'en' => ' MA.ELLAK.GR ',
         ),
-        'description'          => 'T akdkas jkasd aksdasdaklsdkad jask.',
-
+        'description'          => 'MA.ELLAK.GR',
     'description'          => 'Here you can login with your account on Feide RnD OpenID. If you do not already have an account on this identity provider, you can create a new one by following the create new account link and follow the instructions.',
     'SingleSignOnService'  => 'https://ma.ellak.gr/simplesaml/saml2/idp/SSOService.php',
     'SingleLogoutService'  => 'https://ma.ellak.gr/simplesaml/saml2/idp/SingleLogoutService.php',

@@ -1,3 +1,13 @@
 config/authsources.php
 .DS_Store
 ._*
+metadata/metarefresh-gr/attributeauthority-remote.php
+metadata/metarefresh-gr/grnet-metadata.data
+metadata/metarefresh-gr/grnet-metadata.xml
+metadata/metarefresh-gr/saml20-idp-remote.php
+metadata/metarefresh-gr/saml20-sp-remote.php
+metadata/metarefresh-gr/shib13-idp-remote.php
+metadata/metarefresh-gr/shib13-sp-remote.php
+modules/core/templates/ooo/simplesamlphp-1.11.0/cert/server.crt
+modules/core/templates/ooo/simplesamlphp-1.11.0/cert/server.pem
+modules/core/templates/ooo/simplesamlphp-1.11.0.tar.gz
